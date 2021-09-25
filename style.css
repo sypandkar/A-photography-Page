@@ -1,0 +1,81 @@
+
+/********** title page starts *************/
+.container{
+  width: auto;
+  height: 100vh;
+}
+.page1{
+  display: flex;
+}
+.left{
+  background-color:palegreen;
+  text-align: center;
+  width: 50%;
+  height: 100vh;
+  padding-top:35vh;
+}
+.right{
+  background: url('https://images.pexels.com/photos/821749/pexels-photo-821749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 50%;
+}
+/* when screen size reduces below 600px the font size of the h5 (i.e. shubham's photography) will reduced according to its near parent element. but here it will reduced according to body because the font size of parent element is not mentioned. */
+@media  screen and (max-width:600px) {
+  .heading{
+    font-size: 1.5em;
+    color:brown;
+  }
+}
+/********** title page ends *************/
+/************gallery starts **************/
+.seperation {
+  background-color: cornflowerblue;
+  height: 4em;
+  text-align: center;
+  padding-top: 1em;
+  color: white;
+}
+.img-1{
+  background-image: url('https://images.pexels.com/photos/2156311/pexels-photo-2156311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.img-description{
+  background-color: cornflowerblue;
+  padding-top: 1em;
+  height: 4em;
+  text-align: center;
+  color: white;
+}
+.img-2{
+  background-image: url('https://images.pexels.com/photos/1000653/pexels-photo-1000653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.img-3{
+  background-image: url('https://images.pexels.com/photos/3794147/pexels-photo-3794147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.img-4{
+  background-image: url('https://images.pexels.com/photos/7001709/pexels-photo-7001709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+/************gallery ends **************/
+/**************** footer starts***********/
+footer{
+  background-color: paleturquoise;
+  height: 20vh;
+  text-align: center;
+  padding-top: 1em;
+}
+
+/**************** footer ends***********/
+
